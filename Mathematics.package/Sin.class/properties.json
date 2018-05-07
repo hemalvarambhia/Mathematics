@@ -6,7 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"variable",
 		"argument"
 	],
 	"name" : "Sin",
