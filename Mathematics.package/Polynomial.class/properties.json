@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HemalVarambhia 9/20/2017 22:51",
+	"super" : "Object",
+	"category" : "Mathematics",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"terms"
+	],
+	"name" : "Polynomial",
+	"type" : "normal"
+}

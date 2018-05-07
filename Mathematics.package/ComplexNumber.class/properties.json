@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "HemalVarambhia 8/23/2017 22:57",
+	"super" : "Object",
+	"category" : "Mathematics",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"realPart",
+		"imaginaryPart"
+	],
+	"name" : "ComplexNumber",
+	"type" : "normal"
+}

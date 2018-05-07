@@ -1,0 +1,3 @@
+accessing
+theTerms
+	^ terms keys .

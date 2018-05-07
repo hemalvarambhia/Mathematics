@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "HemalVarambhia 2/26/2018 21:24",
+	"super" : "Object",
+	"category" : "Mathematics",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"symbol",
+		"power"
+	],
+	"name" : "Term",
+	"type" : "normal"
+}

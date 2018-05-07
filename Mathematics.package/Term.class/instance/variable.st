@@ -1,0 +1,3 @@
+reader methods
+variable
+	^ symbol
