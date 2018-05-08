@@ -1,3 +1,3 @@
 converting
 adaptToNumber: anInteger andSend: message 
-	^self perform: message with: anInteger. 
+	^self perform: message with: anInteger.
