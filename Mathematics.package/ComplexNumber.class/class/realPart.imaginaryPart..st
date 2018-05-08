@@ -1,8 +1,6 @@
-as yet unclassified
+initialization
 realPart: x imaginaryPart: y
 	"comment stating purpose of message"
 
-	| aComplexNumber |
-	aComplexNumber := self new.
-	aComplexNumber realPart: x imaginaryPart: y.
-	^aComplexNumber
+	^self new realPart: x imaginaryPart: y.
+	
