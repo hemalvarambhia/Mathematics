@@ -1,4 +1,4 @@
-as yet unclassified
+arithmetic
 divideComplexNumber: aComplexNumber 
 	|numerator modulus |
 	numerator:= aComplexNumber * self star.
