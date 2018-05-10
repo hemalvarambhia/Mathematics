@@ -1,3 +1,3 @@
 algebra
 star
-	^self class realPart: (self real) imaginaryPart: (-1 * self imaginary).
+	^self class realPart: (self real) imaginaryPart: (self imaginary negated).
