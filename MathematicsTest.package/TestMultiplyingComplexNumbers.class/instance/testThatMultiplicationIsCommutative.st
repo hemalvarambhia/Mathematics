@@ -3,9 +3,9 @@ testThatMultiplicationIsCommutative
 	"e.g. z * w = w * z"
 
 	| expected z w |
-	z := ComplexNumber realPart: 1 imaginaryPart: 3.
-	w := ComplexNumber realPart: 4 imaginaryPart: 13.
+	z := 1 + 3 i.
+	w := 4 + 13 i.
 	
-	expected := ComplexNumber realPart: -35 imaginaryPart: 25.
+	expected := -35 + 25 i.
 	self assert: z * w equals: expected.
 	self assert: w * z equals: expected.

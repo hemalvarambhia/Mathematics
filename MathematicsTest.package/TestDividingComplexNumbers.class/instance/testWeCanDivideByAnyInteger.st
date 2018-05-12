@@ -4,7 +4,7 @@ testWeCanDivideByAnyInteger
 
 	| expected actual z w |
 	w := 3. 
-	z := ComplexNumber realPart: 10 imaginaryPart: 7.
+	z := 10 + 7 i.
 	
 	actual := z / w.
 	

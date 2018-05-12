@@ -3,10 +3,10 @@ testComplexNumbersIsMulipliedByAnIntegerCorrectly
 	"e.g. z = 2 + 3i, w = 3 z * w = 6 + 9i"
 
 	| expected product z w |
-	z := ComplexNumber realPart: 2 imaginaryPart: 3.
+	z := 2 + 3 i.
 	w := 3.
 	
 	product := z * w.
 	
-	expected := ComplexNumber realPart: 6 imaginaryPart: 9.
+	expected := 6 + 9 i.
 	self assert: product equals: expected 

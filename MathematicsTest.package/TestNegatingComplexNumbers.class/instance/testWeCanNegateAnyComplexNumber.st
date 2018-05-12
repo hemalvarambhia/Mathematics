@@ -3,9 +3,9 @@ testWeCanNegateAnyComplexNumber
 	"e.g. Given z = -1 + i, the -z = 1 - i"
 
 	| z negated expected |
-	z:= ComplexNumber realPart: -1 imaginaryPart: 1.
+	z := -1 + 1 i.
 	
 	negated := z negated.
 
-	expected := ComplexNumber realPart: 1 imaginaryPart: -1.
+	expected := 1 - 1 i.
 	^self assert: negated equals: expected.

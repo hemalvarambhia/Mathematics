@@ -4,11 +4,11 @@ testWeCanSubtractAnyComplexNumberFromANegativeInteger
 	
 	| difference expected a z |
 	a := -3.
-	z := ComplexNumber realPart: 3 imaginaryPart: 4.
+	z := 3 + 4 i.
 	
 	difference := a - z.
 	
-	expected := ComplexNumber realPart: -6 imaginaryPart: -4.
+	expected := -6 - 4 i.
 	^ self assert: difference equals: expected.
 
 	

@@ -3,8 +3,8 @@ testEqualsIsSymmetric
 	"If z = w then w = z"
 
 	| z w |
-	z := ComplexNumber realPart: 3 imaginaryPart: 4.
-	w := ComplexNumber realPart: 3 imaginaryPart: 4.
-
+	z := 3 + 4 i.
+	w := 3 + 4 i.
+	
 	self assert: z equals: w.
 	^ self assert: w equals: z

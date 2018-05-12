@@ -3,10 +3,10 @@ testThatWeCanSubtractOneComplexNumberFromAnother
 	"e.g. Given z = 1 - 3i and w = 10 + 3i, then z - w = -9 -6i"
 
 	| difference expected z w |
-	z := ComplexNumber realPart: 1 imaginaryPart: -3.
-	w := ComplexNumber realPart: 10 imaginaryPart: 3.
+	z := 1 - 3 i.
+	w := 10 + 3 i.
 	
 	difference := z - w.
 	
-	expected := ComplexNumber realPart: -9 imaginaryPart: -6.
+	expected := -9 - 6 i.
 	^self assert: difference equals: expected.

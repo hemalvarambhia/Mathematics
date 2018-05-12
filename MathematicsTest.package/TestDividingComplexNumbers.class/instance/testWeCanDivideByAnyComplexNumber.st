@@ -4,8 +4,8 @@ testWeCanDivideByAnyComplexNumber
 	"6 - 3i + 4i + 2 = 8 + i"
 
 	| expected actual z w |
-	z := ComplexNumber realPart: 3 imaginaryPart: 2. 
-	w := ComplexNumber realPart: 2 imaginaryPart: 1.
+	z := 3 + 2 i.
+	w := 2 + 1 i.
 	
 	actual := z / w.
 	

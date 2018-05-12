@@ -3,7 +3,7 @@ testWeCanDivideByAnInteger
 	"e.g. z = 5 + 2i w = 2 => z / 2 = 2.5 + i"
 
 	|expected actual z w|
-	z := ComplexNumber realPart: 5 imaginaryPart: 2.
+	z := 5 + 2 i.
 	w := 2.
 	
 	actual := z / w.

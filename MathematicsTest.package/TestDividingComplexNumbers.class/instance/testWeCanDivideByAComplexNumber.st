@@ -3,10 +3,10 @@ testWeCanDivideByAComplexNumber
 	"e.g z := 2 + i and w = 2 + i"
 
 	| expected actual z w |
-	z := ComplexNumber realPart: 2 imaginaryPart: 1.
-	w := ComplexNumber realPart: 2 imaginaryPart: 1. 
+	z := 2 + 1 i.
+	w := 2 + 1 i. 
 	
 	actual := z / w.
 	
-	expected := ComplexNumber realPart: 1 imaginaryPart: 0. 
+	expected := 1 + 0 i.
 	^self assert: actual equals: expected. 

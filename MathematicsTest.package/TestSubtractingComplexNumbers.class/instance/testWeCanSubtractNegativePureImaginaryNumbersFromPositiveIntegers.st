@@ -8,5 +8,5 @@ testWeCanSubtractNegativePureImaginaryNumbersFromPositiveIntegers
 	
 	difference := a - z.
 	
-	expected := ComplexNumber realPart: 10 imaginaryPart: 13.
+	expected := 10 + 13 i.
 	^ self assert: difference equals: expected.
