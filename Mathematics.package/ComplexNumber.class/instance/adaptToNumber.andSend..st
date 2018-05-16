@@ -1,6 +1,6 @@
 converting
-adaptToNumber: anInteger andSend: message
+adaptToNumber: aNumber andSend: message
 	| messages messageToSend |
-	messages := Dictionary newFrom: {('-' -> #subtractFromInteger:)}.
+	messages := Dictionary newFrom: {('-' -> #subtractFromNumber:)}.
 	messageToSend := messages at: message ifAbsent: [ message ].
-	^ self perform: messageToSend with: anInteger
+	^ self perform: messageToSend with: aNumber
