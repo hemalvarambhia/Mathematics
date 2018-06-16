@@ -1,5 +1,5 @@
 tests
-testThatH_0Is1
+testThatWeCanGenerateH_0
 	"The first Hermite polynomials is H_0(x) = 1"
 
 	| expected |

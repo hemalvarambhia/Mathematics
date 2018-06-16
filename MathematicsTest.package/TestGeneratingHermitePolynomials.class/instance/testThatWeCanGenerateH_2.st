@@ -1,5 +1,5 @@
 tests
-testH_2Is4xSquaredMinusTwo
+testThatWeCanGenerateH_2
 	"This test demonstrates that H_2(x) = 4x^2 - 2"
 	
 	| expected h_2 |
