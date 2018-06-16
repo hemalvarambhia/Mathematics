@@ -1,5 +1,13 @@
 generators
 generate: n
-	^ n = 0
-		ifTrue: [ Polynomial constant: 1 ]
-		ifFalse: [ Polynomial withCoefficients: #(0 2) ]
+	| h |
+	h := n = 0
+		ifTrue: [ Polynomial constant: 1 ].
+	h := n = 1
+		ifTrue: [ Polynomial withCoefficients: #(0 2) ]
+		ifFalse: h.
+	h := n > 1
+		ifTrue: [ (Polynomial withCoefficients: #(0 2)) * (self generate: n - 1)
+				- (2 * (n - 1) * (self generate: n - 2)) ]
+		ifFalse: h.
+	^ h
