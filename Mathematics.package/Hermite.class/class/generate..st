@@ -2,7 +2,7 @@ generators
 generate: n
 	| h |
 	h := n = 0
-		ifTrue: [ Polynomial constant: 1 ].
+		ifTrue: 1.
 	h := n = 1
 		ifTrue: [ Polynomial withCoefficients: #(0 2) ]
 		ifFalse: h.

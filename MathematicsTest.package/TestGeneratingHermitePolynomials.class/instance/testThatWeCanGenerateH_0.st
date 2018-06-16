@@ -4,5 +4,5 @@ testThatWeCanGenerateH_0
 
 	| expected |
 	
-	expected := Polynomial constant: 1.
+	expected := 1.
 	self assert: (Hermite generate: 0) equals: expected
