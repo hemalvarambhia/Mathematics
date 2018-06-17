@@ -5,4 +5,4 @@ testThatWeCanGenerateH_0
 	| expected |
 	
 	expected := 1.
-	self assert: (Hermite generate: 0) equals: expected
+	self assert: (HermitePolynomial generate: 0) equals: expected

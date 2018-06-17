@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "Hermite",
+	"name" : "HermitePolynomial",
 	"type" : "normal"
 }

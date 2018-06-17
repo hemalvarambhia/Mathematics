@@ -4,4 +4,4 @@ testThatWeCanGenerateH_1
 
 	| expected |
 	expected := Polynomial withCoefficients: #(0 2).
-	self assert: (Hermite generate: 1) equals: expected
+	self assert: (HermitePolynomial generate: 1) equals: expected
