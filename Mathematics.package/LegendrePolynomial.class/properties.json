@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "LegendrePolynomials",
+	"name" : "LegendrePolynomial",
 	"type" : "normal"
 }
