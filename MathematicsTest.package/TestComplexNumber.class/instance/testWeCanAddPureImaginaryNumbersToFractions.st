@@ -1,4 +1,4 @@
-tests
+adding
 testWeCanAddPureImaginaryNumbersToFractions
 	"e.g. given z = i, f = 1/2, then f + z = 1/2 + i"
 

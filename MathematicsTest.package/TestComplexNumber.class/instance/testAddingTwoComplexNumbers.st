@@ -1,4 +1,4 @@
-tests
+adding
 testAddingTwoComplexNumbers
 	"Demonstrate how to add complex numbers"
 

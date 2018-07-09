@@ -1,4 +1,4 @@
-tests
+adding
 testThatAComplexNumberCanBeAddedToInteger
 	"e.g. 1 + z"
 
