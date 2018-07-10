@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "TestGeneratingHermitePolynomials",
+	"name" : "TestLegendrePolynomials",
 	"type" : "normal"
 }

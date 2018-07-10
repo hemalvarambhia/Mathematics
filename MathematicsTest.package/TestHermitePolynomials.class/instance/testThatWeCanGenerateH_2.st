@@ -1,4 +1,4 @@
-tests
+generators
 testThatWeCanGenerateH_2
 	"This test demonstrates that H_2(x) = 4x^2 - 2"
 	

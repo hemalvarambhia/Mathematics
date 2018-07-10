@@ -1,4 +1,4 @@
-tests
+generators
 testThatWeCanGenerateP_0
 	"Demonstrate that P_0(x) = 1"
 

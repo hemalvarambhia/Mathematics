@@ -1,4 +1,4 @@
-tests
+generators
 testThatWeCanGenerateP_1
 	"P_1(x) = x"
 

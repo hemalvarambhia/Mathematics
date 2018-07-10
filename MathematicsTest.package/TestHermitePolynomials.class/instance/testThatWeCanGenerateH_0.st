@@ -1,4 +1,4 @@
-tests
+generators
 testThatWeCanGenerateH_0
 	"The first Hermite polynomials is H_0(x) = 1"
 

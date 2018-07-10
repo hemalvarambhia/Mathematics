@@ -1,4 +1,4 @@
-tests
+generators
 testThatWeCanGenerateH_1
 	"H_1(x) = 2 x"
 

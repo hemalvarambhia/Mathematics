@@ -1,4 +1,4 @@
-tests
+generators
 testThatWeCanGenerateP_2
 	"P_2(x) = 1/2 (3 x^2 - 1)"
 

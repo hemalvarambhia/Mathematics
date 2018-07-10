@@ -1,4 +1,4 @@
-tests
+generators
 testThatWeCanGenerateP_6
 	"P_6(x) = -5/16 + 105/16 x^2 - 315/16 x^4 + 231/16 x^6"
 
