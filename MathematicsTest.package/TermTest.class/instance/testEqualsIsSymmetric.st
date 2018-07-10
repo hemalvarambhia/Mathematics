@@ -1,4 +1,4 @@
-tests
+equals
 testEqualsIsSymmetric
 	"Equivalence relations are symmetric"
 	

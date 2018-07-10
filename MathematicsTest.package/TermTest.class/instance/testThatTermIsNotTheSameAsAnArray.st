@@ -1,4 +1,4 @@
-tests
+equals
 testThatTermIsNotTheSameAsAnArray
 	"Given a term like x^-2, it is not the same as an array"
 

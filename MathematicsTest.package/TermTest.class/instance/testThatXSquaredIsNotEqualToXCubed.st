@@ -1,4 +1,4 @@
-tests
+equals
 testThatXSquaredIsNotEqualToXCubed
 	| xSquared xCubed |
 	xSquared := Term variable: 'x' power: 2 .

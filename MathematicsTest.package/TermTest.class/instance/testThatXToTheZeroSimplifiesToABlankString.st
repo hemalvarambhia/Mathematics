@@ -1,4 +1,4 @@
-tests
+reduction
 testThatXToTheZeroSimplifiesToABlankString
 	"Given x^0, it's string representation is 1"
 	| xToTheZero |

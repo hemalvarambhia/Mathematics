@@ -1,4 +1,4 @@
-tests
+evaluation
 testWeCanEvaluateXToThe1
 	"e.g. Given x^1, then for x = 7, x^1 = 7"
 	| value xToThe1 |

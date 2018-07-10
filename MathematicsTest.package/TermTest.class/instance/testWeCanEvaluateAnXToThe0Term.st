@@ -1,4 +1,4 @@
-tests
+evaluation
 testWeCanEvaluateAnXToThe0Term
 	"e.g. Given x^0, then for x = 5 x^0 = 1"
 	| value xToThe0 |

@@ -1,4 +1,4 @@
-tests
+evaluation
 testEvaluatingAnyTerm
 	| value xToThe4 |
 	xToThe4 := Term variable: 'y' power: 4 . 

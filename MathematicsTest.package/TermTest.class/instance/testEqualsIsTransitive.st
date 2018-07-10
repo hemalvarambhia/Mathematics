@@ -1,4 +1,4 @@
-tests
+equals
 testEqualsIsTransitive
 	"Equivalence relations are transitive"
 	

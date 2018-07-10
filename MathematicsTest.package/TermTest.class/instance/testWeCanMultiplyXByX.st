@@ -1,4 +1,4 @@
-tests
+multiplication
 testWeCanMultiplyXByX
 	"Given the term 'x', then x * x = x ^ 2"
 

@@ -1,4 +1,4 @@
-tests
+multiplication
 testWeCanMultiplyXToThePowerOfZeroByItself
 	"e.g. Given two x**0 term, their x^0 "
 

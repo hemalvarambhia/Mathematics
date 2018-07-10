@@ -1,4 +1,4 @@
-tests
+equals
 testEqualsIsReflexive
 	"equivalence relation are reflexive a ~ a"
 

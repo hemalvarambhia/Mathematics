@@ -1,4 +1,4 @@
-tests
+multiplication
 testWeCanMultiplyXToTheZeroByX
 	"e.g. Given terms x^0 and x^1 then the multiple is x^1" 
 

@@ -1,4 +1,4 @@
-tests
+reduction
 testThatXToThe2IsRepresentedCorrectedAsAString
 	| xSquared |
 	xSquared := Term variable: 'x' power: 2.

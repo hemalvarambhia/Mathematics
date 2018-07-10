@@ -1,4 +1,4 @@
-tests
+hash
 testHash
 	| t |
 	t := Term variable: 'x' power: 2 .

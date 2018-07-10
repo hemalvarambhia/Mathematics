@@ -1,4 +1,4 @@
-tests
+equals
 testThanXSquaredIsNotTheSameAsYSquared
 	
 	| xSquared ySquared |

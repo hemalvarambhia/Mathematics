@@ -1,4 +1,4 @@
-private
+asserting
 assertThatAdding: addend To: augend Gives: expectedAnswer 
 	| sum |
 	sum := addend + augend.
