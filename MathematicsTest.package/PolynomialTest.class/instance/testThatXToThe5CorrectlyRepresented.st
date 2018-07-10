@@ -1,4 +1,4 @@
-tests
+as strings
 testThatXToThe5CorrectlyRepresented
 	| xToThe5 |
 	xToThe5 := Polynomial withCoefficients: #(0 0 0 0 0 1) .

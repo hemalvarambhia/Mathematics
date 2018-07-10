@@ -1,4 +1,4 @@
-tests
+as strings
 testCubicPrintString
 	| cubicAsString cubic |
 	cubic := Polynomial withCoefficients: #(3 0 2 1) .

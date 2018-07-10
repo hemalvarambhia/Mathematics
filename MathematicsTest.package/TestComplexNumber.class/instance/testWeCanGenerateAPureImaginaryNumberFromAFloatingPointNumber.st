@@ -1,4 +1,4 @@
-tests
+generating complex numbers
 testWeCanGenerateAPureImaginaryNumberFromAFloatingPointNumber
 	"We want to be able to write expressions of the form -6.5i"
 

@@ -1,4 +1,4 @@
-tests
+as strings
 testLinearAsString
 	| linear stringRepresentation |
 	linear := Polynomial withCoefficients: #(3 1) .

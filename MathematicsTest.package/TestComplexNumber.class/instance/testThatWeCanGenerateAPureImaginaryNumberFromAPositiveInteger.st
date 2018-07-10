@@ -1,4 +1,4 @@
-tests
+generating complex numbers
 testThatWeCanGenerateAPureImaginaryNumberFromAPositiveInteger
 	"We want to generate something like 5i so that we can 
 	write something like 3 + 4i
