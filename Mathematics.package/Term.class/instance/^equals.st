@@ -1,4 +1,4 @@
 comparing
 = another
-	(another className = 'Term') ifFalse: [ ^false ].
+	(another isKindOf: self class) ifFalse: [ ^false ].
 	^ (self variable = another variable) and: (self power = another power) .

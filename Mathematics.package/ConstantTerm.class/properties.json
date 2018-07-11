@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Term",
+	"category" : "Mathematics",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ConstantTerm",
+	"type" : "normal"
+}

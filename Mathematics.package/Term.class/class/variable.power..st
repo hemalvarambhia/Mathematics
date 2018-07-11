@@ -1,7 +1,8 @@
 initialization
 variable: variable power: index
    |term| 
-	term := self new .
+	index = 0 ifTrue: [ ^ ConstantTerm one ].
+	term := Term new .
 	term variable: variable .
 	term power: index .
 	
