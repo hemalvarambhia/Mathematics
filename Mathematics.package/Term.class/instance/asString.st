@@ -1,3 +1,3 @@
 converting
 asString
-	^symbol, '^', (power asString).
+	^symbol, '^', (power asString)

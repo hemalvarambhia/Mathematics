@@ -4,7 +4,6 @@ printOn: stream
 	 e.g. 1 + 2x + x^2
 	"
 
-	| stringRepresentation |
 	stream
 		nextPutAll: self className;
 		nextPut: $(.
