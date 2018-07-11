@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "HemalVarambhia 7/11/2018 22:23",
+	"commentStamp" : "HemalVarambhia 7/11/2018 22:28",
 	"super" : "Object",
 	"category" : "Mathematics",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "LegendrePolynomial",
+	"instvars" : [
+		"coefficient",
+		"term"
+	],
+	"name" : "Monomial",
 	"type" : "normal"
 }
