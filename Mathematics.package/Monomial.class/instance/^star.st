@@ -1,3 +1,3 @@
 algebra
 * anInteger 
-	^ self
+	^ self class coefficient: (self coefficient * anInteger) term: self term.

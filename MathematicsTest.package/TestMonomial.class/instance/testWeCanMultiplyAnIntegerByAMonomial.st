@@ -1,4 +1,4 @@
-tests
+multiplication
 testWeCanMultiplyAnIntegerByAMonomial
 	| constant monomial product |
 	constant := 1.
