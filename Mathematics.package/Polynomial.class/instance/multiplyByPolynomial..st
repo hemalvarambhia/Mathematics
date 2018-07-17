@@ -3,9 +3,9 @@ multiplyByPolynomial: otherPolynomial
 	| termsOfProduct  |
 	termsOfProduct := Dictionary new.
 	self
-		eachMonomialDo: [ :multiplierMonomial | 
+		do: [ :multiplierMonomial | 
 			otherPolynomial
-				eachMonomialDo: [ :multiplicandMonomial | 
+				do: [ :multiplicandMonomial | 
 					| productMonomial previousProduct product |
 					productMonomial := multiplierMonomial * multiplicandMonomial.
 					previousProduct := termsOfProduct at: productMonomial term ifAbsent: 0.
