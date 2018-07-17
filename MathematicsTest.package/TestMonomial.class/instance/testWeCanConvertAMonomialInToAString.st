@@ -1,4 +1,4 @@
-tests
+converting
 testWeCanConvertAMonomialInToAString
 	"e.g -7x"
 
