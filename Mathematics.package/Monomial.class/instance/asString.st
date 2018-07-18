@@ -1,3 +1,3 @@
 converting
 asString
-	^ '-7x'
+	^ coefficient asString , term reduce
