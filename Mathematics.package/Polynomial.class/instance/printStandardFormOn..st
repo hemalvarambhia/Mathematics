@@ -1,7 +1,7 @@
 printing
 printStandardFormOn: stream
 	self inStandardForm
-		doWithIndex: [ :term :index | 
+		doWithIndex: [ :monomial :index | 
 			index > 1
 				ifTrue: [ stream nextPutAll: ' + ' ].
-			stream nextPutAll: term value asString , term key reduce ]
+			stream nextPutAll: monomial asString ]
