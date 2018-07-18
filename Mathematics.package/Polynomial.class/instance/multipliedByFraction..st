@@ -3,6 +3,9 @@ multipliedByFraction: aFraction
 	| product |
 	product := Dictionary new.
 	self
-		do: [ :monomial | product at: monomial term put: monomial coefficient * aFraction ].
+		do: [ :monomial | 
+			| newMonomial |
+			newMonomial := monomial * aFraction.
+			product at: newMonomial term put: newMonomial coefficient ].
 
 	^ self withTerms: product

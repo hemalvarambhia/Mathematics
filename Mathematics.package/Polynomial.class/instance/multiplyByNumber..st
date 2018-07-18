@@ -1,7 +1,10 @@
 arithmetic
 multiplyByNumber: number
 	| product |
-	product := Dictionary new .
-	self do: [ :monomial | product at: monomial term put: monomial coefficient * number ].
-	
-	^ self class withTerms: product .
+	product := Dictionary new.
+	self
+		do: [ :monomial |
+			| newMonomial | 
+			newMonomial := monomial * number.
+			product at: newMonomial term put: newMonomial coefficient ].
+	^ self class withTerms: product
