@@ -9,7 +9,5 @@ in: symbol withCoefficients: coefficients
 		| term coefficient |
 		term := Term variable: symbol power: index - 1.
 		coefficient := (coefficients at: index ifAbsent: [ 0 ]) .
-		terms at: term put: coefficient . 
+		coefficient ~= 0 ifTrue: [ terms at: term put: coefficient ]. 
 	] .
-
-	terms := self nonZeroTerms .
