@@ -5,4 +5,4 @@ testLinearAsString
 	
 	stringRepresentation := linear asString.
 	
-	^ self assert: stringRepresentation equals: '1x'
+	^ self assert: stringRepresentation equals: 'x'

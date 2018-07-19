@@ -5,4 +5,4 @@ testCubicPrintString
 	
 	cubicAsString := cubic printString .
 	
-	^ self assert: cubicAsString equals: 'Polynomial(1x^3 + 2x^2 + 3)' .
+	^ self assert: cubicAsString equals: 'Polynomial(x^3 + 2x^2 + 3)' .
