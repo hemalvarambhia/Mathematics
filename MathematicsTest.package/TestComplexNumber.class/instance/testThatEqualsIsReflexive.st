@@ -1,5 +1,5 @@
 equals
-testEqualsIsReflexive
+testThatEqualsIsReflexive
 	"Given z, then z = z"
 
 	|z|

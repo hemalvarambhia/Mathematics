@@ -1,5 +1,5 @@
 equals
-testEqualsIsTransitive
+testThatEqualsIsTransitive
 	"Equivalence relations are transitive"
 	
 	| x anotherX yetAnotherX |

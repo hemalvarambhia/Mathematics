@@ -1,5 +1,5 @@
 equals
-testEqualsIsReflexive
+testThatEqualsIsReflexive
 	"equivalence relation are reflexive a ~ a"
 
 	| x |

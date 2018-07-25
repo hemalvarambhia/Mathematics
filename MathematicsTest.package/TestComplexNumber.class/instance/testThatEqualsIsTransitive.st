@@ -1,5 +1,5 @@
 equals
-testEqualsIsTransitive
+testThatEqualsIsTransitive
 	"Given z, w and r if z = w and w = r, then z = r"
 
 	| z w r |

@@ -1,5 +1,5 @@
 equals
-testEqualsIsSymmetric
+testThatEqualsIsSymmetric
 	"Equivalence relations are symmetric"
 	
 	| x anotherX |

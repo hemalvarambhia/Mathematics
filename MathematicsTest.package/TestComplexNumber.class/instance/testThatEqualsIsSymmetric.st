@@ -1,5 +1,5 @@
 equals
-testEqualsIsSymmetric
+testThatEqualsIsSymmetric
 	"If z = w then w = z"
 
 	| z w |

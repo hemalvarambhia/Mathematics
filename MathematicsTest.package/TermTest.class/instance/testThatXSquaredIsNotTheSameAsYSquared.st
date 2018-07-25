@@ -1,5 +1,5 @@
 equals
-testThanXSquaredIsNotTheSameAsYSquared
+testThatXSquaredIsNotTheSameAsYSquared
 	
 	| xSquared ySquared |
 	xSquared := Term variable: 'x' power: 2 .
