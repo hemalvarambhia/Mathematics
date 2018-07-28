@@ -1,5 +1,6 @@
 accessing
 evaluateAt: value
-	^ self theTerms
-		inject: 0
-		into: [ :sum :eachTerm | sum + ((self coefficientOf: eachTerm) * (eachTerm evaluateAt: value)) ]
+	| result |
+	result := 0.
+	self do: [ :monomial | result := result + (monomial evaluateAt: value) ].
+	^ result
