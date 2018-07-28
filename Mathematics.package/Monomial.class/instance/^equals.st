@@ -1,3 +1,5 @@
 comparing
 = other
-	^ (self coefficient = other coefficient) & (self term = other term)
+	other class = self class
+		ifFalse: [ ^ false ]
+		ifTrue: [ ^ (self coefficient = other coefficient) & (self term = other term) ]
