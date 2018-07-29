@@ -1,4 +1,4 @@
-multiplication
+asserting
 assertProductOf: multiplier and: multiplicand equals: expected
 	| product |
 	product := multiplier * multiplicand .
