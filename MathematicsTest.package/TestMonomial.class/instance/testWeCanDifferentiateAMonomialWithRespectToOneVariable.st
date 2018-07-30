@@ -1,4 +1,4 @@
-tests
+differentiation
 testWeCanDifferentiateAMonomialWithRespectToOneVariable
 	"e.g. p(x) = 2x^3 => p'(x) = 6x^2"
 	| monomial expected |

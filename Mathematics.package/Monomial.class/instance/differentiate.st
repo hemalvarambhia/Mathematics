@@ -1,4 +1,7 @@
 calculus
 differentiate
 	"Computes the differential coefficient of a monomial"
-	^ self class coefficient: 6 term: (Term xToThe: 2)
+
+	^ self class
+		coefficient: self coefficient * self term power
+		term: (Term xToThe: self term power - 1)
