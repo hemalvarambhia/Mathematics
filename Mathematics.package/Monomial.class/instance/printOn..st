@@ -7,5 +7,5 @@ printOn: stream
 	stream
 		nextPutAll: self className;
 		nextPut: $(.
-	self asString .
+	stream nextPutAll: self asString.
 	stream nextPut: $)
