@@ -2,12 +2,12 @@
 	"commentStamp" : "HemalVarambhia 8/1/2018 22:33",
 	"super" : "Object",
 	"category" : "Mathematics",
-	"classinstvars" : [
-		"terms"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"terms"
+	],
 	"name" : "MultivariateTerm",
 	"type" : "normal"
 }

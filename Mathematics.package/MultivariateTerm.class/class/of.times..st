@@ -1,3 +1,7 @@
 initialization
 of: aTerm times: anotherTerm 
-	terms := Array with: aTerm with: anotherTerm .
+	| multivariateTerm |
+	multivariateTerm := self new .
+	multivariateTerm of: aTerm times: anotherTerm.
+	
+	^multivariateTerm
