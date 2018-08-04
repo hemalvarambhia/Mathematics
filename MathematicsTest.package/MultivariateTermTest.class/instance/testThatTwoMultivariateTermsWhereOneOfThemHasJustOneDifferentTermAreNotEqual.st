@@ -1,4 +1,4 @@
-tests
+equals
 testThatTwoMultivariateTermsWhereOneOfThemHasJustOneDifferentTermAreNotEqual
 	"This test demonstrates that x^3 y^5 is the same as y^5 x^3"	
 	| multivariateTerm withDifferentTerms |
