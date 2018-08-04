@@ -1,3 +1,3 @@
 comparing
 = another
-	^multiplier = another multiplier
+	^(multiplier = another multiplier) & (multiplicand = another multiplicand)
