@@ -1,3 +1,5 @@
 algebra
-* aMultivariateTerm 
-	^self of: (Term xToThe: 5) times: (Term yToThe: 4).
+* aMultivariateTerm
+	^ self
+		of: multiplier * aMultivariateTerm multiplier
+		times: multiplicand * aMultivariateTerm multiplicand
