@@ -1,6 +1,6 @@
 accessing
-evaluateAt: value
-	| result |
-	result := 0.
-	self do: [ :monomial | result := result + (monomial evaluateAt: value) ].
-	^ result
+evaluateAt: valueOfVariable
+	^ self monomials
+		inject: 0
+		into:
+			[ :valueOfPolynomial :monomial | valueOfPolynomial + (monomial evaluateAt: valueOfVariable) ]
