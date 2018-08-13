@@ -6,4 +6,4 @@ differentiate
 		ifTrue: [ ^ self class zero ].
 	^ self class
 		coefficient: self coefficient * self term power
-		term: (Term xToThe: self term power - 1)
+		term: (Term variable: self term variable power: self term power - 1)
