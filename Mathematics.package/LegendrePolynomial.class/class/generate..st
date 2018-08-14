@@ -1,5 +1,6 @@
 generators
 generate: l
+	l < 0 ifTrue: [ (InvalidPolynomialOrder new) signal ].
 	l = 0
 		ifTrue: [ ^ Polynomial constant: 1 ].
 	l = 1
