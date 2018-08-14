@@ -1,0 +1,1 @@
+I represent terms of the form x^0 or y^0.
