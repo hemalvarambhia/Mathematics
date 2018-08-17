@@ -1,5 +1,6 @@
 generators
 generate: n
+	n < 0 ifTrue: [ (InvalidPolynomialOrder new) signal ].
 	n = 0
 		ifTrue: [ ^ 1 ].
 	n = 1
