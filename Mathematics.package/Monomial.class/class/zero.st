@@ -1,3 +1,3 @@
 initialization
 zero
-	^ self coefficient: 0 term: (Term xToThe: 0) 
+	^ self productOf: 0 andTerm: (Term xToThe: 0) 

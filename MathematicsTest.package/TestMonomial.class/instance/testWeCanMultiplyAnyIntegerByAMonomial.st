@@ -4,7 +4,7 @@ testWeCanMultiplyAnyIntegerByAMonomial
 
 	| monomial constant expected |
 	constant := 7.
-	monomial := Monomial coefficient: 4 term: (Term xToThe: 2).
+	monomial := Monomial productOf: 4 andTerm: (Term xToThe: 2).
 	
-	expected := Monomial coefficient: 28 term: (Term xToThe: 2).
+	expected := Monomial productOf: 28 andTerm: (Term xToThe: 2).
 	self assertProductOf: monomial and: constant equals: expected

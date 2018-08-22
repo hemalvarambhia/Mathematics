@@ -1,7 +1,7 @@
 differentiation
 testWeCanDifferentiateAMonomialWithRespectToAnyVariable
 	| monomialInY expected |
-	monomialInY := Monomial coefficient: 2 term: (Term yToThe: 2).
+	monomialInY := Monomial productOf: 2 andTerm: (Term yToThe: 2).
 	
-	expected := Monomial coefficient: 4 term: (Term yToThe: 1).
+	expected := Monomial productOf: 4 andTerm: (Term yToThe: 1).
 	self assert: (monomialInY differentiate) equals: expected

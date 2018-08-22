@@ -1,4 +1,4 @@
 initialisation
-of: aTerm times: anotherTerm 
+productOf: aTerm andTerm: anotherTerm 
 	multiplier := aTerm.
 	multiplicand := anotherTerm .

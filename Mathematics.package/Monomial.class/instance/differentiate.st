@@ -5,5 +5,5 @@ differentiate
 	self constant
 		ifTrue: [ ^ self class zero ].
 	^ self class
-		coefficient: self coefficient * self term power
-		term: (Term variable: self term variable power: self term power - 1)
+		productOf: self coefficient * self term power
+		andTerm: (Term variable: self term variable power: self term power - 1)

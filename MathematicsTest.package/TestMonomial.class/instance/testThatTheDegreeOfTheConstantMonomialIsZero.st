@@ -1,6 +1,6 @@
 degree
 testThatTheDegreeOfTheConstantMonomialIsZero
 	| constant |
-	constant := Monomial coefficient: 2 term: (Term yToThe: 0).
+	constant := Monomial productOf: 2 andTerm: (Term yToThe: 0).
 	
 	self assert: (constant degree) equals: 0

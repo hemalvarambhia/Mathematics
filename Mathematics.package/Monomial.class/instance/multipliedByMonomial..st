@@ -1,5 +1,5 @@
 algebra
 multipliedByMonomial: aMonomial
 	^ self class
-		coefficient: aMonomial coefficient * self coefficient
-		term: self term * aMonomial term
+		productOf: aMonomial coefficient * self coefficient
+		andTerm: self term * aMonomial term

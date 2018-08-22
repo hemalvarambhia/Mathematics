@@ -1,7 +1,7 @@
 equals
 testThatTwoMultivariateTermsOneWithADifferentVariableAreNotEqual
 	| multivariateTerm withDifferentTerm |
-	multivariateTerm := MultivariateTerm of: (Term xToThe: 3) times: (Term yToThe: 4).
-	withDifferentTerm := MultivariateTerm of: (Term variable: 'z' power: 3) times: (Term yToThe: 4).
+	multivariateTerm := MultivariateTerm productOf: (Term xToThe: 3) andTerm: (Term yToThe: 4).
+	withDifferentTerm := MultivariateTerm productOf: (Term variable: 'z' power: 3) andTerm: (Term yToThe: 4).
 	
 	self deny: multivariateTerm = withDifferentTerm

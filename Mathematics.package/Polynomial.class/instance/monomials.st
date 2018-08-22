@@ -2,5 +2,5 @@ converting
 monomials
 	terms isEmpty ifTrue: [ ^ Array with: Monomial zero ].
 	^ (terms associations
-		collect: [ :term | Monomial coefficient: term value term: term key ])
+		collect: [ :term | Monomial productOf: term value andTerm: term key ])
 		select: [ :monomial | monomial coefficient ~= 0 ]
