@@ -1,5 +1,5 @@
 adding
-testWeCanAddTwoMonomialsOfTheSameVariableAndPower
+testWeCanAddTwoMonomialsOfTheSameTerm
 	| xSquared twoXSquared |
 	xSquared := Monomial productOf: 1 andTerm: (Term xToThe: 2).
 	
