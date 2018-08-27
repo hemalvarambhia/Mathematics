@@ -1,3 +1,3 @@
 acccessing
 degree
-	^ 3.
+	^ multiplier power + multiplicand power.
