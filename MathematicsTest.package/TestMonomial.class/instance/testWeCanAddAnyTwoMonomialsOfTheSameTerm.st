@@ -1,4 +1,4 @@
-tests
+adding
 testWeCanAddAnyTwoMonomialsOfTheSameTerm
 	| monomial another expected |
 	monomial := Monomial productOf: 2 andTerm: (Term xToThe: 2).
