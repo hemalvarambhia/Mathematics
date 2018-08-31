@@ -1,5 +1,5 @@
 adding
 assertSumOf: aMonomial and: anotherMonomial equals: expected 
 	| sum |
-	sum := aMonomial plus: anotherMonomial .
+	sum := aMonomial + anotherMonomial .
 	self assert: sum equals: expected .
