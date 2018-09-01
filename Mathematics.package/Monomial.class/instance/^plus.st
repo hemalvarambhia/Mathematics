@@ -1,3 +1,3 @@
 algebra
 + aMonomial
-	^ self class productOf: self coefficient + aMonomial coefficient andTerm: (Term xToThe: 2)
+	^ self class productOf: self coefficient + aMonomial coefficient andTerm: term 
