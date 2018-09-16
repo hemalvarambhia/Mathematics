@@ -2,11 +2,9 @@ adding
 testWeCanAddAnyTwoConstants
 	"p(x) = 1, q(x) = 4 => p(x) + q(x) = 5"
 
-	|expected sum p q |
+	| p q expected |
 	p := Polynomial constant: 1 .
 	q := Polynomial constant: 4 .
 	
-	sum := p + q .
-	
 	expected := Polynomial constant: 5 .
-	^self assert: sum equals: expected .
+	self assertThatAdding: p To: q Gives: expected .
