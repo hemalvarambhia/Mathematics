@@ -1,5 +1,5 @@
 converting
-testWeCanConvertTheUnitConstantMonomial
+testWeCanConvertTheUnitConstantMonomialInToAString
 	"e.g. C = 1"
 
 	| unit |

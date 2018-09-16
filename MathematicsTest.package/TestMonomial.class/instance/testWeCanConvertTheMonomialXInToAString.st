@@ -1,5 +1,5 @@
 converting
-testWeCanConvertTheMonomialX
+testWeCanConvertTheMonomialXInToAString
 	"e.g. m(x) = x"
 
 	| x |
