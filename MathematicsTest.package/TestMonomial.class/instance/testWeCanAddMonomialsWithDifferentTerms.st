@@ -5,4 +5,4 @@ testWeCanAddMonomialsWithDifferentTerms
 	augend := Monomial productOf: 6 andTerm: (Term yToThe: 3).
 	
 	sum := Monomial productOf: 9 andTerm: (Term yToThe: 3).
-	self assertThatAdding: addend To: augend Gives: sum
+	self assertThat: addend Plus: augend Gives: sum

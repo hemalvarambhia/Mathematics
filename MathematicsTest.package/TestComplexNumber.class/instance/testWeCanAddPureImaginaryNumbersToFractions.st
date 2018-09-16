@@ -7,4 +7,4 @@ testWeCanAddPureImaginaryNumbersToFractions
 	pureImaginary := 1 i.
 	
 	expected := ComplexNumber realPart: 1 / 2 imaginaryPart: 1.
-	self assertThatAdding: aFraction To: pureImaginary Gives: expected
+	self assertThat: aFraction Plus: pureImaginary Gives: expected

@@ -6,4 +6,4 @@ testWeCanAddAnPolynomialToAnInteger
 	p := Polynomial withCoefficients: #(1 3 2) .
 	
 	expected := Polynomial withCoefficients: #(2 3 2) .
-	self assertThatAdding: 1 To: p Gives: expected . 
+	self assertThat: 1 Plus: p Gives: expected . 

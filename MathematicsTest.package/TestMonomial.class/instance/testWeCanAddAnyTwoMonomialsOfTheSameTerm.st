@@ -5,4 +5,4 @@ testWeCanAddAnyTwoMonomialsOfTheSameTerm
 	another := Monomial productOf: 4 andTerm: (Term xToThe: 2).
 	
 	expected := Monomial productOf: 6 andTerm: (Term xToThe: 2).
-	self assertThatAdding: monomial To: another Gives: expected.
+	self assertThat: monomial Plus: another Gives: expected.

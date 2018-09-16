@@ -7,4 +7,4 @@ testWeCanAddXToAnyConstant
 	q := Polynomial constant: 5.
 	
 	expected := Polynomial withCoefficients: #(5 1) . 
-	self assertThatAdding: p To: q Gives: expected .
+	self assertThat: p Plus: q Gives: expected .

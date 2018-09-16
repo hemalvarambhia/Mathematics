@@ -6,4 +6,4 @@ testWeCanAddAPolynomialToARealNumber
 	p := Polynomial withCoefficients: #(3 0 0 0 1) .
 	
 	expected := Polynomial withCoefficients: #(5.63 0 0 0 1) .
-	self assertThatAdding: p To: 2.63 Gives: expected .
+	self assertThat: p Plus: 2.63 Gives: expected .

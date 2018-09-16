@@ -7,4 +7,4 @@ testWeCanAddAMonomialToAPolynomial
 	polynomial := Polynomial withCoefficients: #(1 0 1).
 	
 	expected := Polynomial withCoefficients: #(1 0 3).
-	self assertThatAdding: polynomial To: monomial Gives: expected.
+	self assertThat: polynomial Plus: monomial Gives: expected.

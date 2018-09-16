@@ -7,4 +7,4 @@ testWeCanAddXTo3X
 	q := Polynomial withCoefficients: #(0 3) .
 	
 	expected := Polynomial withCoefficients: #(0 4) .
-	self assertThatAdding: p To: q Gives: expected . 
+	self assertThat: p Plus: q Gives: expected . 

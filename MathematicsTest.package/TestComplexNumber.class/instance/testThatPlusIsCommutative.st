@@ -7,5 +7,5 @@ testThatPlusIsCommutative
 	z_2 := 5 + 6 i. 
 	
 	expected := 8 + 10 i.
-	self assertThatAdding: z_1 To: z_2 Gives: expected.
-	self assertThatAdding: z_2 To: z_1 Gives: expected.
+	self assertThat: z_1 Plus: z_2 Gives: expected.
+	self assertThat: z_2 Plus: z_1 Gives: expected.

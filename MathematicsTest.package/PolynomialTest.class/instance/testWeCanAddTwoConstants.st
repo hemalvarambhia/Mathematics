@@ -7,4 +7,4 @@ testWeCanAddTwoConstants
 	q := Polynomial constant: 1 .
 	
 	expected := Polynomial constant: 2 .
-	self assertThatAdding: p To: q Gives: expected . 
+	self assertThat: p Plus: q Gives: expected . 

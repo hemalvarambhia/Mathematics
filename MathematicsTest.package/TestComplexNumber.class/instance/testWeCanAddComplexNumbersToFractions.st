@@ -4,4 +4,4 @@ testWeCanAddComplexNumbersToFractions
 
 	| expected |
 	expected := ComplexNumber realPart: 11 / 3 imaginaryPart: -19.
-	self assertThatAdding: 2 / 3 To: 3 - 19 i Gives: expected
+	self assertThat: 2 / 3 Plus: 3 - 19 i Gives: expected

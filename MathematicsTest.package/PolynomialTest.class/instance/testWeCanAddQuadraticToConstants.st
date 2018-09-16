@@ -7,4 +7,4 @@ testWeCanAddQuadraticToConstants
 	q := Polynomial withCoefficients: #(3 2) .
 	
 	expected := Polynomial withCoefficients: #(4 4 1) .
-	self assertThatAdding: p To: q Gives: expected .
+	self assertThat: p Plus: q Gives: expected .

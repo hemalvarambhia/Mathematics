@@ -7,4 +7,4 @@ testWeCanAddXToTheZeroPolynomial
 	q := Polynomial constant: 0.
 	
 	expected := Polynomial withCoefficients: #(0 1) .
-	self assertThatAdding: p To: q Gives: expected .
+	self assertThat: p Plus: q Gives: expected .

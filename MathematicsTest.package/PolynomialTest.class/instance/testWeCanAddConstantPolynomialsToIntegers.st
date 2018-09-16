@@ -6,4 +6,4 @@ testWeCanAddConstantPolynomialsToIntegers
 	p := Polynomial constant: 1 .
 	
 	expected := Polynomial constant: 2 .
-	self assertThatAdding: p To: 1 Gives: expected .
+	self assertThat: p Plus: 1 Gives: expected .
