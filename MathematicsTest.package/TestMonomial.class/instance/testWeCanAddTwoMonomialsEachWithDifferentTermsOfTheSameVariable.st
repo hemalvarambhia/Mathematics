@@ -6,4 +6,4 @@ testWeCanAddTwoMonomialsEachWithDifferentTermsOfTheSameVariable
 	monomialOfDifferentTerm := Monomial productOf: 1 andTerm: (Term xToThe: 1).
 	
 	polynomial := Polynomial withCoefficients: #(0 1 2).
-	self assertSumOf: monomialOfTerm and: monomialOfDifferentTerm equals: polynomial .
+	self assertThatAdding: monomialOfTerm To: monomialOfDifferentTerm Gives: polynomial .
