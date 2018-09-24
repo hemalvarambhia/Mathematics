@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "PolynomialTest",
+	"name" : "TestTerm",
 	"type" : "normal"
 }
