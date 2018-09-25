@@ -1,3 +1,6 @@
 algebra
 plusInteger: anInteger
-	^self plusMonomial: (self class productOf: anInteger andTerm: (Term xToThe: 0)).
+	| theTerm |
+	theTerm := Term variable: self variable power: 0.
+	^ self
+		plusMonomial: (self class productOf: anInteger andTerm: theTerm)
