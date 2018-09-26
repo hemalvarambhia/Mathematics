@@ -1,5 +1,5 @@
 adding
-testWeCanAddAFractionToAMonomial
+testWeCanAddAddAnyKindOfNumberToAMonomial
 	"e.g. Given m(y) = 3y^2 and f = 1/2, then m + f = 3y^2 + 1/2"
 
 	| m f expected |
