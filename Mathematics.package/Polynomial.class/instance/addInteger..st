@@ -1,4 +1,4 @@
 arithmetic
 addInteger: anInteger
-	^self
-		addPolynomial: (self class in: self variable withCoefficients: (Array with: anInteger))
+	^ self
+		addPolynomial: (self theInteger: anInteger asPolynomialIn: self variable)
