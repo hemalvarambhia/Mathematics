@@ -1,3 +1,3 @@
 *Mathematics
 addPolynomial: aPolynomial
-	^ aPolynomial addSmallFloat: self
+	^aPolynomial plusNumber: self
