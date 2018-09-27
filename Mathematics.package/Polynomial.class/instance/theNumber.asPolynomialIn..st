@@ -1,5 +1,5 @@
 arithmetic
-theInteger: anInteger asPolynomialIn: theVariable
+theNumber: anInteger asPolynomialIn: theVariable
 	^ self class
 		in: theVariable
 		withCoefficients: (Array with: anInteger)
