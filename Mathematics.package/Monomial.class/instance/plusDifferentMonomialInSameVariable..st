@@ -1,7 +1,8 @@
 algebra
 plusDifferentMonomialInSameVariable: aMonomial
 	| terms |
-	terms := Dictionary new.
-	terms at: self term put: coefficient.
-	terms at: aMonomial term put: aMonomial coefficient.
+	terms := Dictionary
+		newFrom:
+			{(self term -> self coefficient).
+			(aMonomial term -> aMonomial coefficient)}.
 	^ Polynomial withTerms: terms
