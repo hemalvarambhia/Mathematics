@@ -1,3 +1,3 @@
 adding
-addPolynomial: aPolynomial 
+plusPolynomial: aPolynomial 
 	^ aPolynomial + (Polynomial constant: self) .

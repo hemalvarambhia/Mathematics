@@ -1,5 +1,5 @@
 arithmetic
-addPolynomial: aPolynomial
+plusPolynomial: aPolynomial
 	"Adds the polynomial to another e.g Given p(x), q(x) then r(x) = p(x) + q(x)"
 	| theTerms sumTerms |
 	

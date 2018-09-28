@@ -1,3 +1,3 @@
 arithmetic
 + other
-	^ other addPolynomial: self .
+	^ other plusPolynomial: self .
