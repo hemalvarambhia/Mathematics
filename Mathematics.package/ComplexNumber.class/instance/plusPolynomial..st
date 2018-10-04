@@ -1,3 +1,3 @@
 adding
-plusPolynomial: aPolynomial
-	^ aPolynomial + (self asPolynomialIn: aPolynomial variable)
+plusPolynomial: aPolynomial  
+	^ aPolynomial plusComplexNumber: self	
