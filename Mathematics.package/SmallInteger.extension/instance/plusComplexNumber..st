@@ -1,3 +1,3 @@
 *Mathematics
 plusComplexNumber: aComplexNumber 
-	^aComplexNumber sumFromInteger: self.
+	^aComplexNumber plusInteger: self.

@@ -1,5 +1,5 @@
 arithmetic
-sumFromInteger: anInteger
+plusInteger: anInteger
 	"comment stating purpose of message"
 
 	| sum |
