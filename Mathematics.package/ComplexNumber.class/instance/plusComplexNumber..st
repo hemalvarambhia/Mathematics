@@ -1,5 +1,5 @@
 arithmetic
-sumFromComplexNumber: other
+plusComplexNumber: other
 	"comment stating purpose of message"
    |sum|
 	sum := self class new.
