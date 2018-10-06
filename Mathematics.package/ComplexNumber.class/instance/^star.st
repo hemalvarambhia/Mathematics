@@ -1,3 +1,3 @@
 arithmetic
 * number 
-	^number multiplyByComplexNumber: self.
+	^number timesComplexNumber: self.

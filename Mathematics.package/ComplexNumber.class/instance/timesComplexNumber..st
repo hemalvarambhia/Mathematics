@@ -1,5 +1,5 @@
 arithmetic
-multiplyByComplexNumber: that
+timesComplexNumber: that
 	"comment stating purpose of message"
 	|x y|
 	x := (self real * that real) - (self imaginary * that imaginary).

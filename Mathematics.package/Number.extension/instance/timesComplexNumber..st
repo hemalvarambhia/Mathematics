@@ -1,3 +1,3 @@
 *Mathematics
-multiplyByComplexNumber: aComplexNumber 
+timesComplexNumber: aComplexNumber 
 	^aComplexNumber timesNumber: self
