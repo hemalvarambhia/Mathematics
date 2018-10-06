@@ -6,4 +6,4 @@ differentiate
 		ifTrue: [ ^ self class zero ].
 	^ self class
 		productOf: self coefficient * self term power
-		andTerm: (Term variable: self term variable power: self term power - 1)
+		andTerm: (Term variable: self variable power: self term power - 1)
