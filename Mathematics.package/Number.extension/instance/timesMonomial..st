@@ -1,3 +1,3 @@
 *Mathematics
-multipliedByMonomial: aMonomial 
+timesMonomial: aMonomial 
 	^Monomial productOf: (self * aMonomial coefficient) andTerm: aMonomial term.

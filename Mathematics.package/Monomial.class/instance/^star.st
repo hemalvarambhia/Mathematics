@@ -1,3 +1,3 @@
 algebra
 * another 
-	^ another multipliedByMonomial: self.
+	^ another timesMonomial: self.

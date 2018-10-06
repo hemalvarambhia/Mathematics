@@ -1,3 +1,3 @@
 converting
 adaptToNumber: aNumber andSend: aString 
-	^ aNumber multipliedByMonomial: self.
+	^ aNumber timesMonomial: self.
