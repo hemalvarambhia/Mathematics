@@ -1,4 +1,4 @@
 *Mathematics
 plusMonomial: aMonomial 
-	^ aMonomial plusInteger: self
+	^ aMonomial plusNumber: self
 	
