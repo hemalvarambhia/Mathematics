@@ -1,3 +1,3 @@
 *Mathematics
 plusComplexNumber: aComplexNumber 
-	^aComplexNumber plusInteger: self.
+	^aComplexNumber plusNumber: self.
