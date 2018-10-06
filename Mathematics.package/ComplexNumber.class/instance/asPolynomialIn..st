@@ -1,4 +1,4 @@
-adding
+converting
 asPolynomialIn: polynomialVariable
 	^ Polynomial
 		in: polynomialVariable
