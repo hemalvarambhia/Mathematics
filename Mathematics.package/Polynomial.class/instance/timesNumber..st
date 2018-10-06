@@ -1,5 +1,5 @@
 arithmetic
-multiplyByNumber: number
+timesNumber: number
 	| product |
 	product := Dictionary new.
 	self

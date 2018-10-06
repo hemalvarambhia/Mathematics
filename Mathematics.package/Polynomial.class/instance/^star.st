@@ -1,3 +1,3 @@
 arithmetic
 * other
-   ^other multiplyByPolynomial: self .	
+   ^other timesPolynomial: self .	

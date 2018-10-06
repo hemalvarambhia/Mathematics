@@ -1,5 +1,5 @@
 arithmetic
-multiplyByPolynomial: otherPolynomial
+timesPolynomial: otherPolynomial
 	| termsOfProduct  |
 	termsOfProduct := Dictionary new.
 	self
