@@ -1,5 +1,3 @@
-algebra
+converting
 asPolynomial
-	| monomialCoeff |
-	monomialCoeff := Dictionary newFrom: { term -> coefficient }.
-	^ Polynomial withTerms: monomialCoeff
+	^ Polynomial withTerms: self asDictionary
