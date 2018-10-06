@@ -1,8 +1,5 @@
 arithmetic
 plusInteger: anInteger
-	"comment stating purpose of message"
+	"Adds an integer to the complex number"
 
-	| sum |
-	sum := ComplexNumber new.
-	sum realPart: realPart + anInteger imaginaryPart: imaginaryPart.
-	^sum
+	^ self class realPart: realPart + anInteger imaginaryPart: imaginaryPart
