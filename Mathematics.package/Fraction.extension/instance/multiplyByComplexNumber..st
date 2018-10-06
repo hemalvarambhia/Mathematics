@@ -1,3 +1,3 @@
 *Mathematics
 multiplyByComplexNumber: aComplexNumber 
-	^aComplexNumber multiplyByFraction: self
+	^aComplexNumber timesNumber: self
