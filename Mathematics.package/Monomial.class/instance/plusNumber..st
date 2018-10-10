@@ -1,5 +1,7 @@
 algebra
 plusNumber: aNumber
-	| theTerm |
-	theTerm := ConstantTerm in: self variable.
-	^ self plusMonomial: (self class productOf: aNumber andTerm: theTerm)
+	| constant |
+	constant := self class
+		productOf: aNumber
+		andTerm: (ConstantTerm in: self variable).
+	^ self plusMonomial: constant
