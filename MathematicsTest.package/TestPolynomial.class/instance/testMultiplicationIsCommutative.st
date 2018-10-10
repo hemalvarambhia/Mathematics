@@ -1,5 +1,5 @@
 multiplication
-testMultiplicationIsCommutitive
+testMultiplicationIsCommutative
 	| p q |
 	p := Polynomial withCoefficients: #(1 2) .
 	q := Polynomial withCoefficients: #(1 1) .
