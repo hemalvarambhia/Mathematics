@@ -1,5 +1,5 @@
 tests
-testWritingASinTerm
+testWritingASinFunction
 	"This test demonstrates how to write down sin(x)"
 	| sinTerm term |
 	term := Term variable: 'x' power: 4 . 

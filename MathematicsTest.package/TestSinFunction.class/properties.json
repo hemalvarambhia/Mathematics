@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "TestSinTerm",
+	"name" : "TestSinFunction",
 	"type" : "normal"
 }

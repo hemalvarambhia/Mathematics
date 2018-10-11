@@ -1,5 +1,5 @@
 tests
-testWeCanWriteAnySinTerm
+testWeCanWriteAnySinFunction
 	"e.g. an expression of the form sin(x^4 + 1)"
 
 	| sinTerm polynomial |
