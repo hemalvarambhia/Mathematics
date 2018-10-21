@@ -1,4 +1,4 @@
-tests
+as strings
 testWeCanWriteAnySinFunction
 	"e.g. an expression of the form sin(x^4 + 1)"
 
