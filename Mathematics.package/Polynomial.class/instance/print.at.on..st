@@ -1,5 +1,5 @@
 printing
-write: monomial at: position to: stream
+print: monomial at: position on: stream
 	| parts |
 	^ position = 1
 		ifTrue: [ stream nextPutAll: monomial asString ]
