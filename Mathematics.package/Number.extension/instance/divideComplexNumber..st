@@ -1,3 +1,3 @@
 *Mathematics
 divideComplexNumber: other
-	^other divideByInteger: self.
+	^other divideByNumber: self.
