@@ -1,4 +1,4 @@
-printing
+private
 print: monomial at: position on: stream
 	| parts |
 	^ position = 1

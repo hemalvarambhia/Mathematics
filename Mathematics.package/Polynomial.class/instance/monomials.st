@@ -1,4 +1,4 @@
-converting
+private
 monomials
 	terms isEmpty ifTrue: [ ^ Array with: Monomial zero ].
 	^ (terms associations

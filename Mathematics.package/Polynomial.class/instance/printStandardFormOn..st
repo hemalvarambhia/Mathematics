@@ -1,4 +1,4 @@
-printing
+private
 printStandardFormOn: stream
 	self inStandardForm
 		doWithIndex:
