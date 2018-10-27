@@ -1,9 +1,7 @@
-as yet unclassified
+printing
 expressionParts: aMonomial
-	| sign monomialAsString |
+	| sign |
 	sign := aMonomial coefficient < 0
 		ifTrue: [ '-' ]
 		ifFalse: [ '+' ].
-	monomialAsString := aMonomial asString copyReplaceAll: '-' with: '' .
-	^ Array with: sign with: monomialAsString
-	
+	^ Array with: sign with: aMonomial asString
