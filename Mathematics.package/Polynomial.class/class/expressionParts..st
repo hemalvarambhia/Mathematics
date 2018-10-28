@@ -1,7 +1,7 @@
 printing
 expressionParts: aMonomial
 	| operation |
-	operation := aMonomial coefficient < 0
+	operation := aMonomial negative
 		ifTrue: [ '-' ]
 		ifFalse: [ '+' ].
 	^ Array with: operation with: aMonomial asString
