@@ -1,4 +1,4 @@
-tests
+converting
 testWeCanCorrectlyRepresentAComplexNumberWithPositiveRealAndImaginary
 	
 	| z |
