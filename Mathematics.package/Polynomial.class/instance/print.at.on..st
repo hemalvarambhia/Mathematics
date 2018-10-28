@@ -8,4 +8,4 @@ print: monomial at: position on: stream
 				nextPutAll: ' ';
 				nextPutAll: (parts at: 1);
 				nextPutAll: ' '.
-			stream nextPutAll: ((parts at: 2) copyReplaceAll: '-' with: '') ]
+			stream nextPutAll: (parts at: 2) ]

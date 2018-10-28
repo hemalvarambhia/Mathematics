@@ -4,4 +4,4 @@ expressionParts: aMonomial
 	operation := aMonomial negative
 		ifTrue: [ '-' ]
 		ifFalse: [ '+' ].
-	^ Array with: operation with: aMonomial asString
+	^ Array with: operation with: (aMonomial asString copyReplaceAll: '-' with: '')
