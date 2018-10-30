@@ -5,7 +5,7 @@ print: monomial at: position on: stream
 		ifTrue: [ stream nextPutAll: monomial asString ]
 		ifFalse: [ parts := self class expressionParts: monomial.
 			stream
-				nextPutAll: ' ';
+				space;
 				nextPutAll: (parts at: 1);
-				nextPutAll: ' '.
+				space.
 			stream nextPutAll: (parts at: 2) ]
