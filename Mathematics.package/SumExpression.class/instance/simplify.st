@@ -1,0 +1,3 @@
+algebra
+simplify
+	^ 2.
