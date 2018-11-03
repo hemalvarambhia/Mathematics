@@ -1,5 +1,5 @@
 accessing
-productOf: aCoeffient andTerm: aTerm
-	coefficient := aCoeffient .
+productOf: aCoefficient andTerm: aTerm
+	coefficient := aCoefficient .
 	term := aTerm.
 	
