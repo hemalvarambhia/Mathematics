@@ -2,7 +2,6 @@ printing
 printOn: stream
 	stream
 		nextPutAll: self className;
-		nextPut: $(.
-	stream
+		nextPut: $(;
 		nextPutAll: self asString;
 		nextPut: $)
