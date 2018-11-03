@@ -6,4 +6,4 @@ testWeCanWriteAnySinFunction
 	polynomial := Polynomial withCoefficients: #(1 0 0 0 1) .
 	sinTerm := Sin of: polynomial .
 	
-	^self assert: (sinTerm argument) equals: polynomial .
+	self assert: (sinTerm argument) equals: polynomial .

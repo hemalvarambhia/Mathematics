@@ -5,4 +5,4 @@ testWritingASinFunction
 	term := Term variable: 'x' power: 4 . 
 	sinTerm := Sin of: term .
 	 
-	^self assert: (sinTerm argument) equals: term .
+	self assert: (sinTerm argument) equals: term .
