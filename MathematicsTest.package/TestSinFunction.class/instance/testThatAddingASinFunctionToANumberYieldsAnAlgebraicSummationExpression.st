@@ -1,4 +1,4 @@
-tests
+algebra
 testThatAddingASinFunctionToANumberYieldsAnAlgebraicSummationExpression
 	"e.g. sin(x) + 2"
 
