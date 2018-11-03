@@ -5,4 +5,4 @@ testWeCanSimplifySummingAnyTwoNumbers
 	| expression |
 	expression := SumExpression of: 3 plus: 4.
 	
-	self assert: expression simplify equals: 7
+	self assert: expression simplifiesTo: 7

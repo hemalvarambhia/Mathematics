@@ -7,4 +7,4 @@ testWeCanSimplifySummingTwoPolynomialsInTheSameVariables
 	expression := SumExpression of: p plus: q.
 	
 	expected := Polynomial withCoefficients: #(2 -1 2 1).
-	self assert: expression simplify equals: expected.
+	self assert: expression simplifiesTo: expected.
