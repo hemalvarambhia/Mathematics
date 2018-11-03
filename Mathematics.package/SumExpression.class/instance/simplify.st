@@ -1,3 +1,3 @@
 algebra
 simplify
-	^ 2.
+	^ addend + augend .

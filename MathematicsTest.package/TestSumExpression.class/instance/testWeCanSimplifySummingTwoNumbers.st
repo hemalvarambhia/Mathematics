@@ -1,4 +1,4 @@
-tests
+simplifying expressions
 testWeCanSimplifySummingTwoNumbers
 	"We have the expression 1 + 1, which is simplified to two"
 
