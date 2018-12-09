@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Mathematics",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"multiplier",
+		"multiplicand"
+	],
+	"name" : "ProductExpression",
+	"type" : "normal"
+}

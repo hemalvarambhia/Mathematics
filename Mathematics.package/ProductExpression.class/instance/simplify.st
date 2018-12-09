@@ -1,0 +1,3 @@
+arithmetic
+simplify
+	^10.
