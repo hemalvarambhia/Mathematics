@@ -6,5 +6,5 @@ testWeCanSimplifyTheExpressionOfTwoNumbers
 	
 	expression := ProductExpression of: 2 times: -5.
 	
-	expected := 10.
+	expected := -10.
 	self assert: expression simplifiesTo: expected

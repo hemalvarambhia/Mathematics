@@ -1,3 +1,7 @@
 initialization
 of: multiplier times: multiplicand 
-	^ self new.
+	| product |
+	product := self new.
+	product multiplier: multiplier times: multiplicand .
+	
+	^product

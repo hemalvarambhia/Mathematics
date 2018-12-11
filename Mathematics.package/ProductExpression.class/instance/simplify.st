@@ -1,3 +1,3 @@
 arithmetic
 simplify
-	^10.
+	^multiplier * multiplicand .
