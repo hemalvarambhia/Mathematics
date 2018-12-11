@@ -1,4 +1,4 @@
-tests
+simplifying expressions
 testWeCanSimplifyTheExpressionOfTwoNumbers
 	"e.g. 2 * -5 = -10"
 
