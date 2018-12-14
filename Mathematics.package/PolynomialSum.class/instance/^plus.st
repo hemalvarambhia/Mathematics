@@ -1,3 +1,3 @@
 algebra
-+ anInteger 
-	^ self class of: self simplify plus: anInteger.
++ anAddend 
+	^ self class of: self simplify plus: anAddend.
