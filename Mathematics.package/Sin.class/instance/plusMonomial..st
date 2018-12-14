@@ -1,3 +1,3 @@
 algebra
 plusMonomial: aMonomial 
-	^ SumExpression of: aMonomial plus: self.
+	^ PolynomialSum of: aMonomial plus: self.

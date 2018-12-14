@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "TestSumExpression",
+	"name" : "TestPolynomialSum",
 	"type" : "normal"
 }

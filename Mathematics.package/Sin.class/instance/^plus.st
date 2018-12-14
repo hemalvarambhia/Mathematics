@@ -1,3 +1,3 @@
 algebra
 + anInteger 
-	^ SumExpression of: self plus: anInteger .
+	^ PolynomialSum of: self plus: anInteger .

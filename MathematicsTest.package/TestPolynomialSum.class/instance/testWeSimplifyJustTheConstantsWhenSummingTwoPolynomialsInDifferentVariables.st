@@ -8,7 +8,7 @@ testWeSimplifyJustTheConstantsWhenSummingTwoPolynomialsInDifferentVariables
 	| p q expression expected expectedTerms |
 	p := Polynomial withCoefficients: #(1 2 1).
 	q := Polynomial in: 'y' withCoefficients: #(3 2 0 2).
-	expression := SumExpression of: p plus: q.
+	expression := PolynomialSum of: p plus: q.
 	expectedTerms := Dictionary
 		newFrom:
 			{(Term xToThe: 0) -> 4.

@@ -9,6 +9,6 @@
 		"addend",
 		"augend"
 	],
-	"name" : "SumExpression",
+	"name" : "PolynomialSum",
 	"type" : "normal"
 }

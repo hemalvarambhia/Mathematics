@@ -10,7 +10,7 @@ testWeCanAddAPolynomialToAnotherSumExpression
 	| p q expression j expected |
 	p := Polynomial withCoefficients: #(3 0 1).
 	q := Polynomial withCoefficients: #(0 0 0 0 1).
-	expression := SumExpression of: p plus: q.
+	expression := PolynomialSum of: p plus: q.
 	j := Polynomial withCoefficients: #(-1 2).
 	
 	expected := Polynomial withCoefficients: #(2 2 1 0 1).
