@@ -1,3 +1,3 @@
 acccessing
 augend
-	^ augend
+	^ augend.

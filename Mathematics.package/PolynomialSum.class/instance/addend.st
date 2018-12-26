@@ -1,3 +1,3 @@
 acccessing
 addend
-	^ addend
+	^ addend.
