@@ -1,4 +1,4 @@
-accessing
+test accessing
 testWeCanGetTheCoefficientOfATermInThePolynomial
 	"e.g. p(x) = 2 + x and q(x) = 5x + 2x^2
 	r(x) = p(x) + q(x)

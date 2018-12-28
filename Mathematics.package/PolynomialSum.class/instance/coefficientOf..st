@@ -1,3 +1,3 @@
 accessing
 coefficientOf: aTerm 
-	^6.
+	^(augend coefficientOf: aTerm) + (addend coefficientOf: aTerm)
