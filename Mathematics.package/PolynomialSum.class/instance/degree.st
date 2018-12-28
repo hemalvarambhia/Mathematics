@@ -1,3 +1,3 @@
 accessing
 degree
-	^ 3.
+	^ augend degree.
