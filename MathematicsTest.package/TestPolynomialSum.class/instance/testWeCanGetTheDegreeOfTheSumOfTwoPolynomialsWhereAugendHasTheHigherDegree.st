@@ -1,4 +1,4 @@
-test accessing
+accessing
 testWeCanGetTheDegreeOfTheSumOfTwoPolynomialsWhereAugendHasTheHigherDegree
 	"e.g. given p(x) = x^2 - 1 and q(x) = 3
 	the degree of their sum s(x) is 2

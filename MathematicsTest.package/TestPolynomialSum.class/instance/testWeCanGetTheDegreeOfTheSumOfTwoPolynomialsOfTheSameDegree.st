@@ -1,4 +1,4 @@
-test accessing
+accessing
 testWeCanGetTheDegreeOfTheSumOfTwoPolynomialsOfTheSameDegree
 	"e.g. given p(x) = 2 + x^3 and q(x) = 4x + x^3
 	then the degree of their sum, s(x) (= p(x) + q(x)),

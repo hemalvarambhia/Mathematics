@@ -1,4 +1,4 @@
-test accessing
+accessing
 testWeCanGetTheDegreeOfTheSumOfTwoPolynomialsWhereTheAddendHasTheHigherDegree
 	"e.g. given p(x) = 3x and q(x) = x^6 + x^3
 	then the sum of the two, s(x) has degree 6

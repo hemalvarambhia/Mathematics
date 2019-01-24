@@ -1,4 +1,4 @@
-test accessing
+accessing
 testWeCanGetTheCoefficientOfAnyTerm
 	"e.g. given p(x) = x + x^4 and q(x) = 3x + x^4
 	then s(x) = p(x) + q(x)
