@@ -1,3 +1,3 @@
 accessing
 degree
-	^ augend degree.
+	^ (Array with: augend degree with: addend degree) max.
